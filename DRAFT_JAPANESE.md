@@ -29,9 +29,10 @@
   - GCP Firebase/Big Query/GKE/Compute Engine/Cloud Function/Cloud Strage/Cloud PubSub/...
   - Other: Vercel, Netlify, さくらVPS
 - Other: マイクロサービスアーキテクチャ, DDD, クリーンアーキテクチャ, レイヤードアーキテクチャ, アジャイル開発(スクラム), Docker/Kubernetes/terraform, E2E テスト, 自動テスト, Github/Gitlab
-- Tools: Intellij(Jetbrains製品)
+- Tools: Intellij
 
 # 経歴
+
 機微情報を含むため会社名は省略させていただきます
 
 ## 2019〜現在 個人事業主
@@ -52,6 +53,13 @@
   - 技術的課題の解決
 
 **プロジェクト**
+- shopifyアプリ開発(Next.js/TypeScript/Golang/gRPC/マイクロサービスアーキテクチャ/AWS)
+- 統合基盤開発(Next.js/TypeScript/Jest/AWS(Lambda/Cognito/DynamoDB))
+- インフルエンサー向けアプリ開発(Vue.js/Nuxt.js/Next.js/TypeScript/GraphQL/gRPC/AWS)
+- サイネージアプリ開発(Vue.js/TypeScript/Jest/Flutter/AWS(AppSync/DynamoDB/Cognito/Lambda))
+- IoTデバイス管理システム開発(React.js/TypeScript/GCP(Firebase/Function/Storage))
+- 物流管理システム(Vue.js/TypeScript/Jest/Swagger/SpringBoot/Kotlin)
+- シミュレータアプリ開発(Vue.js/Nuxt.js/TypeScript/SpringBoot/Kotlin)
 
 **実績/貢献**
 
