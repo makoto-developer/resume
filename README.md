@@ -1,7 +1,22 @@
 # 職務経歴書
 
-> このページは Notion 版の職務経歴書と同じ内容です。
-> 原本: https://app.notion.com/p/40371b14ae284ff391016d0ad6f5fa04
+フルスタックデベロッパー / テックリード。フロントエンド・バックエンド・インフラを横断し、要件定義から運用まで一貫して担当しています。
+
+- **開発歴** 15年目(2012年3月〜) / **個人事業歴** 7年目(2019年10月〜)
+- **得意領域** Go, TypeScript, Elixir, Rust / マイクロサービス・DDD・クリーンアーキテクチャ / AWS・GCP + Terraform
+
+### 主な実績
+
+- SNS配信システムを Node.js から Elixir(Phoenix) へ移行し、最大スループットを **1,000 req/s → 100,000 req/s** に改善。あわせてサーバ台数を **100台 → 5台** に削減
+- Shopifyアプリを初期リリースから担当し、利用者数 **0人 → 数千人**、**年間数億円**の売上を達成
+- 決済システムを Cloud SQL から Spanner へ移行。UUIDv6を逆順で発行して水平分散させるなど、Spannerの特性を踏まえて設計・実装
+
+### 目次
+
+- [自己紹介](#自己紹介)
+- [技術スキル](#技術スキル)
+- [プロジェクト](#プロジェクト)
+- [自己PR](#自己pr)
 
 ## 自己紹介
 
@@ -18,11 +33,11 @@
 
 ### 連絡先・リンク
 
-|項目|URL|
+|項目|リンク|
 |:---|:---|
-|GitHub|https://github.com/makoto-developer|
-|X (Twitter)|https://x.com/makotodeveloper|
-|ブログ|https://blog.makoto-developer.net|
+|GitHub|[@makoto-developer](https://github.com/makoto-developer)|
+|X (Twitter)|[@makotodeveloper](https://x.com/makotodeveloper)|
+|ブログ|[blog.makoto-developer.net](https://blog.makoto-developer.net)|
 
 ## 技術スキル
 
@@ -110,8 +125,9 @@ Claude Code, Codex, Google Antigravity, GitHub Copilot, JetBrains AI Assistant
 
 ## プロジェクト
 
-> ※1 過去5年分のプロジェクトのみ掲載(2012年より22の開発プロジェクトに参加)
-> ※2 代表的なツールやライブラリのみ記載しているので記載していない技術があります。経験があるかは直接聞いてもらえれば幸いです。
+> - 過去5年分のプロジェクトのみ掲載(2012年より22の開発プロジェクトに参加)
+> - 終了日の新しい順に掲載。期間が重複しているものは副業などで並行して稼働
+> - 代表的なツールやライブラリのみ記載しているので記載していない技術があります。経験があるかは直接聞いてもらえれば幸いです
 
 ### 1. 不動産データ分析アプリ開発 (2026-04 〜 現在)
 
@@ -126,17 +142,17 @@ Claude Code, Codex, Google Antigravity, GitHub Copilot, JetBrains AI Assistant
 2. 複数のプロダクトを横断でリファクタリング。重複しているライブラリを共通化、地理データ情報マートを新規構築してデータ取得経路を統一。
 3. 検索機能の改善。地図検索機能、PDF出力機能など、バグ修正やレスポンス改善を行う。
 
-**PR**
+**アピールポイント**
 
 - DWH(Snowflake / dbt / Embulk)を使ったデータ基盤の設計と構築
 - 地理データを扱うAPIとDB設計
 - AIのみでレビューを含めた開発、複数のプロダクトを同時に修正するための仕組み作り
 
-|分類|技術|
-|:---|:---|
-|フロントエンド|Next.js(v15), TypeScript(v5), TanStack, shadcn/ui, GraphQL|
-|バックエンド|Rust, Ruby(Rails), Python, Golang(v1.25), DDD, Snowflake, Google Maps API, PostgreSQL, MySQL, Highcharts, AWS(Aurora, EKS, ECS, Lambda など), GitHub|
-|AI|Claude Code, Devin|
+**技術スタック**
+
+- **フロントエンド**: Next.js(v15), TypeScript(v5), TanStack, shadcn/ui, GraphQL
+- **バックエンド**: Rust, Ruby(Rails), Python, Golang(v1.25), DDD, Snowflake, Google Maps API, PostgreSQL, MySQL, Highcharts, AWS(Aurora, EKS, ECS, Lambda など), GitHub
+- **AI**: Claude Code, Devin
 
 ### 2. Shopifyアプリ開発 (2025-04 〜 2026-03)
 
@@ -154,20 +170,20 @@ Claude Code, Codex, Google Antigravity, GitHub Copilot, JetBrains AI Assistant
     - ProtobufでAPIを統一。DBのテーブルやProtobufのデータ構造は複雑になることが予想されるため抽象化して依存関係を分離して整理。他社のインターフェース変更があった際にも柔軟に変更できるようにデータ構造を設計した。
     - AIを使った開発では、JetBrains MPSを使ってDSLを読み込ませてClaudeのコンテキストを90%減らし、Claude自身用のKanbanを作成して忘却を防ぐなど、ClaudeのAgentやGuidelineを設計して開発した。
 
-**PR**
+**アピールポイント**
 
 - AI(Claude Code / Copilot)を使った開発経験
 
-|分類|技術|
-|:---|:---|
-|フロントエンド|Next.js(v15), TypeScript(v5), TanStack, shadcn/ui, grpc-transport|
-|バックエンド|Golang(v1.25), gRPC, マイクロサービスアーキテクチャ, クリーンアーキテクチャ, DDD, AWS(Aurora, EKS, ECS, Cognito, Lambda など), Terraform/Helm/Argo, GitLab|
-|AI|Claude Code|
-|その他|Python, Pandas, Jupyter Notebook, ペアプロ, スクラム(1週スプリント)|
+**技術スタック**
+
+- **フロントエンド**: Next.js(v15), TypeScript(v5), TanStack, shadcn/ui, grpc-transport
+- **バックエンド**: Golang(v1.25), gRPC, マイクロサービスアーキテクチャ, クリーンアーキテクチャ, DDD, AWS(Aurora, EKS, ECS, Cognito, Lambda など), Terraform/Helm/Argo, GitLab
+- **AI**: Claude Code
+- **その他**: Python, Pandas, Jupyter Notebook, ペアプロ, スクラム(1週スプリント)
 
 ### 3. 決済システム開発 (2024-04 〜 2025-03)
 
-※ 2, 4と同じ会社、別開発チーム
+> 2, 4と同じ会社、別開発チーム
 
 クレジットカードや電子決済などの決済システムの機能開発、運用保守を担当。
 
@@ -181,20 +197,20 @@ Claude Code, Codex, Google Antigravity, GitHub Copilot, JetBrains AI Assistant
 - Cloud SQLからより高速で可用性の高いSpannerへ移行設計と実装をした。IDをUUIDv6で生成し、逆順で発行しSpannerに登録させることで水平分散させるなど、Spannerの特性を考慮した設計をした。
 - Goroutineで並行処理するようにして応答速度を上げたり、MQサービスを使ってビッグバンリクエストがあっても問題ないような可用性を高めるための設計や実装をした。
 
-**PR**
+**アピールポイント**
 
 - 決済の知識(与信システムや3Dセキュアなど)
 - GCP Spannerの経験
 - Goのパフォーマンスチューニング
 
-|分類|技術|
-|:---|:---|
-|バックエンド|Golang(v1.22), gRPC, GraphQL, マイクロサービスアーキテクチャ, クリーンアーキテクチャ, Kafka, GCP(Cloud SQL, Spanner, GKE, Cloud Functions, BigQuery など), Terraform/Helm/Argo, GitLab|
-|その他|SAFe, スクラム(2週スプリント)|
+**技術スタック**
+
+- **バックエンド**: Golang(v1.22), gRPC, GraphQL, マイクロサービスアーキテクチャ, クリーンアーキテクチャ, Kafka, GCP(Cloud SQL, Spanner, GKE, Cloud Functions, BigQuery など), Terraform/Helm/Argo, GitLab
+- **その他**: SAFe, スクラム(2週スプリント)
 
 ### 4. Shopifyアプリ開発 (2022-08 〜 2024-03)
 
-※ 2と同じクライアント・プロジェクト
+> 2と同じクライアント・プロジェクト
 
 Shopifyで公開しているアプリの開発、運用を担当。
 
@@ -208,7 +224,7 @@ Shopifyで公開しているアプリの開発、運用を担当。
 - Shopifyは頻繁にバージョンアップがあるためE2Eを実行することでリグレッション試験の時間を短くして工数を削減するなどの取り組みを行った。
 - 初期リリースから担当し、利用者数が0人から数千人へ増やし、年間数億円の売り上げを達成することができた。
 
-**PR**
+**アピールポイント**
 
 - Shopifyアプリの開発経験
 - 決済システムの開発経験
@@ -216,11 +232,11 @@ Shopifyで公開しているアプリの開発、運用を担当。
 - E2Eの導入経験
 - モブプロを経験(既存メンバーしか知らない固有ドメイン知識を新規メンバーに共有して受け入れしやすくした)
 
-|分類|技術|
-|:---|:---|
-|フロントエンド|Next.js(v13), TypeScript(v4), アトミックデザイン, GraphQL, Playwright|
-|バックエンド|Golang(v1.17), GORM, gRPC, GraphQL, マイクロサービスアーキテクチャ, クリーンアーキテクチャ, AWS(Aurora, DynamoDB, SQS, SES, EKS, ECS など), Terraform/Helm/Argo, GitLab|
-|その他|E2E, ペアプロ/モブプログラミング, スクラム(1週スプリント)|
+**技術スタック**
+
+- **フロントエンド**: Next.js(v13), TypeScript(v4), アトミックデザイン, GraphQL, Playwright
+- **バックエンド**: Golang(v1.17), GORM, gRPC, GraphQL, マイクロサービスアーキテクチャ, クリーンアーキテクチャ, AWS(Aurora, DynamoDB, SQS, SES, EKS, ECS など), Terraform/Helm/Argo, GitLab
+- **その他**: E2E, ペアプロ/モブプログラミング, スクラム(1週スプリント)
 
 ### 5. SNS配信システムのリプレイス (2020-05 〜 2023-11)
 
@@ -236,7 +252,7 @@ Shopifyで公開しているアプリの開発、運用を担当。
 - Elixirを導入して、最大スループット1,000req/sから最大100,000req/sに引き上げた。
 - サーバ数を100台から5台に減らしてインフラコストを削減できた。
 
-**PR**
+**アピールポイント**
 
 - テックリードの経験
 - 開発メンバーの面接、採用活動
@@ -245,16 +261,16 @@ Shopifyで公開しているアプリの開発、運用を担当。
 - DevOps環境の導入経験
 - 既存サービスの振る舞いをGherkinで記述して整理(E2E試験でデグレ確認)
 
-|分類|技術|
-|:---|:---|
-|フロントエンド|Next.js(v13), TypeScript(v3), Playwright/Gherkin|
-|バックエンド|Node.js(v14), Elixir(v1.10〜v1.15), Phoenix(v1.4〜v1.6), PostgreSQL(v12), GCP(GKE, BigQuery, Firebase など), RabbitMQ, GitHub|
-|モバイル|Rust(v1.43〜v1.73), Tauri(v1)|
-|その他|E2E, ペアプロ|
+**技術スタック**
+
+- **フロントエンド**: Next.js(v13), TypeScript(v3), Playwright/Gherkin
+- **バックエンド**: Node.js(v14), Elixir(v1.10〜v1.15), Phoenix(v1.4〜v1.6), PostgreSQL(v12), GCP(GKE, BigQuery, Firebase など), RabbitMQ, GitHub
+- **モバイル**: Rust(v1.43〜v1.73), Tauri(v1)
+- **その他**: E2E, ペアプロ
 
 ### 6. SNS配信システムの開発 (2022-03 〜 2022-07)
 
-※ 5とは異なる案件
+> 5とは異なる案件
 
 フロントエンド開発チームのテックリードとしてReactの設計を担当。
 
@@ -267,15 +283,15 @@ Shopifyで公開しているアプリの開発、運用を担当。
 - Reactプロジェクトのディレクトリ構成や状態管理設計、モジュール管理方法などを設計した。
 - アトミックデザインで設計し、作成したコンポーネントを社内で配布し、誰でも利用できる開発環境を構築した。
 
-**PR**
+**アピールポイント**
 
 - Reactプロジェクトの設計
 - Cognitoを使った認証認可の設計
 
-|分類|技術|
-|:---|:---|
-|フロントエンド|Vue.js(v2), Next.js(v12), Redux, TypeScript(v4), アトミックデザイン|
-|バックエンド|Node.js(v15), AWS(API Gateway, Lambda, Cognito, DynamoDB, AppSync など), レイヤードアーキテクチャ|
+**技術スタック**
+
+- **フロントエンド**: Vue.js(v2), Next.js(v12), Redux, TypeScript(v4), アトミックデザイン
+- **バックエンド**: Node.js(v15), AWS(API Gateway, Lambda, Cognito, DynamoDB, AppSync など), レイヤードアーキテクチャ
 
 ### 7. インフルエンサー向けアプリ開発 (2021-07 〜 2022-02)
 
@@ -289,15 +305,15 @@ Shopifyで公開しているアプリの開発、運用を担当。
 1. 既存システムの機能開発。Vue.jsアプリに機能追加をした。
 2. 新規アプリの立ち上げ。Next.jsアプリの開発。
 
-**PR**
+**アピールポイント**
 
 - アトミックデザインの開発経験
 - モダンなフロントエンドの開発経験
 
-|分類|技術|
-|:---|:---|
-|フロントエンド|Vue.js(v2), Next.js(v11), TypeScript(v4), Redux, BEM(CSS), GraphQL|
-|バックエンド|Golang(v1.14), クリーンアーキテクチャ, GraphQL, gRPC, DDD, Auth0, GitHub|
+**技術スタック**
+
+- **フロントエンド**: Vue.js(v2), Next.js(v11), TypeScript(v4), Redux, BEM(CSS), GraphQL
+- **バックエンド**: Golang(v1.14), クリーンアーキテクチャ, GraphQL, gRPC, DDD, Auth0, GitHub
 
 ## 自己PR
 
@@ -311,3 +327,5 @@ Shopifyで公開しているアプリの開発、運用を担当。
 - オンプレ・クラウドでサーバ構築、ネットワークの設計、フロントエンド、バックエンド、デザイン、Webアプリ開発に関するほとんどを取り扱える。
 - ゼロから設計〜導入、運用を含めて一貫して対応可能。
 - また、社員時代にプロジェクトリーダーを経験しており、リリース計画の立案から進行管理・会議のファシリテーションまで対応。
+
+<!-- 原本(Notion): https://app.notion.com/p/40371b14ae284ff391016d0ad6f5fa04 -->
