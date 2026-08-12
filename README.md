@@ -150,9 +150,12 @@ Claude Code, Codex, Google Antigravity, GitHub Copilot, JetBrains AI Assistant
 
 **技術スタック**
 
-- **フロントエンド**: Next.js(v15), TypeScript(v5), TanStack, shadcn/ui, GraphQL
-- **バックエンド**: Rust, Ruby(Rails), Python, Golang(v1.25), DDD, Snowflake, Google Maps API, PostgreSQL, MySQL, Highcharts, AWS(Aurora, EKS, ECS, Lambda など), GitHub
-- **AI**: Claude Code, Devin
+<table>
+<tr><th align="left" width="150">分類</th><th align="left">技術</th></tr>
+<tr><td nowrap>フロントエンド</td><td>Next.js(v15), TypeScript(v5), TanStack, shadcn/ui, GraphQL</td></tr>
+<tr><td nowrap>バックエンド</td><td>Rust, Ruby(Rails), Python, Golang(v1.25), DDD, Snowflake, Google Maps API, PostgreSQL, MySQL, Highcharts, AWS(Aurora, EKS, ECS, Lambda など), GitHub</td></tr>
+<tr><td nowrap>AI</td><td>Claude Code, Devin</td></tr>
+</table>
 
 ### 2. Shopifyアプリ開発 (2025-04 〜 2026-03)
 
@@ -176,10 +179,13 @@ Claude Code, Codex, Google Antigravity, GitHub Copilot, JetBrains AI Assistant
 
 **技術スタック**
 
-- **フロントエンド**: Next.js(v15), TypeScript(v5), TanStack, shadcn/ui, grpc-transport
-- **バックエンド**: Golang(v1.25), gRPC, マイクロサービスアーキテクチャ, クリーンアーキテクチャ, DDD, AWS(Aurora, EKS, ECS, Cognito, Lambda など), Terraform/Helm/Argo, GitLab
-- **AI**: Claude Code
-- **その他**: Python, Pandas, Jupyter Notebook, ペアプロ, スクラム(1週スプリント)
+<table>
+<tr><th align="left" width="150">分類</th><th align="left">技術</th></tr>
+<tr><td nowrap>フロントエンド</td><td>Next.js(v15), TypeScript(v5), TanStack, shadcn/ui, grpc-transport</td></tr>
+<tr><td nowrap>バックエンド</td><td>Golang(v1.25), gRPC, マイクロサービスアーキテクチャ, クリーンアーキテクチャ, DDD, AWS(Aurora, EKS, ECS, Cognito, Lambda など), Terraform/Helm/Argo, GitLab</td></tr>
+<tr><td nowrap>AI</td><td>Claude Code</td></tr>
+<tr><td nowrap>その他</td><td>Python, Pandas, Jupyter Notebook, ペアプロ, スクラム(1週スプリント)</td></tr>
+</table>
 
 ### 3. 決済システム開発 (2024-04 〜 2025-03)
 
@@ -205,8 +211,11 @@ Claude Code, Codex, Google Antigravity, GitHub Copilot, JetBrains AI Assistant
 
 **技術スタック**
 
-- **バックエンド**: Golang(v1.22), gRPC, GraphQL, マイクロサービスアーキテクチャ, クリーンアーキテクチャ, Kafka, GCP(Cloud SQL, Spanner, GKE, Cloud Functions, BigQuery など), Terraform/Helm/Argo, GitLab
-- **その他**: SAFe, スクラム(2週スプリント)
+<table>
+<tr><th align="left" width="150">分類</th><th align="left">技術</th></tr>
+<tr><td nowrap>バックエンド</td><td>Golang(v1.22), gRPC, GraphQL, マイクロサービスアーキテクチャ, クリーンアーキテクチャ, Kafka, GCP(Cloud SQL, Spanner, GKE, Cloud Functions, BigQuery など), Terraform/Helm/Argo, GitLab</td></tr>
+<tr><td nowrap>その他</td><td>SAFe, スクラム(2週スプリント)</td></tr>
+</table>
 
 ### 4. Shopifyアプリ開発 (2022-08 〜 2024-03)
 
@@ -234,9 +243,12 @@ Shopifyで公開しているアプリの開発、運用を担当。
 
 **技術スタック**
 
-- **フロントエンド**: Next.js(v13), TypeScript(v4), アトミックデザイン, GraphQL, Playwright
-- **バックエンド**: Golang(v1.17), GORM, gRPC, GraphQL, マイクロサービスアーキテクチャ, クリーンアーキテクチャ, AWS(Aurora, DynamoDB, SQS, SES, EKS, ECS など), Terraform/Helm/Argo, GitLab
-- **その他**: E2E, ペアプロ/モブプログラミング, スクラム(1週スプリント)
+<table>
+<tr><th align="left" width="150">分類</th><th align="left">技術</th></tr>
+<tr><td nowrap>フロントエンド</td><td>Next.js(v13), TypeScript(v4), アトミックデザイン, GraphQL, Playwright</td></tr>
+<tr><td nowrap>バックエンド</td><td>Golang(v1.17), GORM, gRPC, GraphQL, マイクロサービスアーキテクチャ, クリーンアーキテクチャ, AWS(Aurora, DynamoDB, SQS, SES, EKS, ECS など), Terraform/Helm/Argo, GitLab</td></tr>
+<tr><td nowrap>その他</td><td>E2E, ペアプロ/モブプログラミング, スクラム(1週スプリント)</td></tr>
+</table>
 
 ### 5. SNS配信システムのリプレイス (2020-05 〜 2023-11)
 
@@ -263,10 +275,13 @@ Shopifyで公開しているアプリの開発、運用を担当。
 
 **技術スタック**
 
-- **フロントエンド**: Next.js(v13), TypeScript(v3), Playwright/Gherkin
-- **バックエンド**: Node.js(v14), Elixir(v1.10〜v1.15), Phoenix(v1.4〜v1.6), PostgreSQL(v12), GCP(GKE, BigQuery, Firebase など), RabbitMQ, GitHub
-- **モバイル**: Rust(v1.43〜v1.73), Tauri(v1)
-- **その他**: E2E, ペアプロ
+<table>
+<tr><th align="left" width="150">分類</th><th align="left">技術</th></tr>
+<tr><td nowrap>フロントエンド</td><td>Next.js(v13), TypeScript(v3), Playwright/Gherkin</td></tr>
+<tr><td nowrap>バックエンド</td><td>Node.js(v14), Elixir(v1.10〜v1.15), Phoenix(v1.4〜v1.6), PostgreSQL(v12), GCP(GKE, BigQuery, Firebase など), RabbitMQ, GitHub</td></tr>
+<tr><td nowrap>モバイル</td><td>Rust(v1.43〜v1.73), Tauri(v1)</td></tr>
+<tr><td nowrap>その他</td><td>E2E, ペアプロ</td></tr>
+</table>
 
 ### 6. SNS配信システムの開発 (2022-03 〜 2022-07)
 
@@ -290,8 +305,11 @@ Shopifyで公開しているアプリの開発、運用を担当。
 
 **技術スタック**
 
-- **フロントエンド**: Vue.js(v2), Next.js(v12), Redux, TypeScript(v4), アトミックデザイン
-- **バックエンド**: Node.js(v15), AWS(API Gateway, Lambda, Cognito, DynamoDB, AppSync など), レイヤードアーキテクチャ
+<table>
+<tr><th align="left" width="150">分類</th><th align="left">技術</th></tr>
+<tr><td nowrap>フロントエンド</td><td>Vue.js(v2), Next.js(v12), Redux, TypeScript(v4), アトミックデザイン</td></tr>
+<tr><td nowrap>バックエンド</td><td>Node.js(v15), AWS(API Gateway, Lambda, Cognito, DynamoDB, AppSync など), レイヤードアーキテクチャ</td></tr>
+</table>
 
 ### 7. インフルエンサー向けアプリ開発 (2021-07 〜 2022-02)
 
@@ -312,8 +330,11 @@ Shopifyで公開しているアプリの開発、運用を担当。
 
 **技術スタック**
 
-- **フロントエンド**: Vue.js(v2), Next.js(v11), TypeScript(v4), Redux, BEM(CSS), GraphQL
-- **バックエンド**: Golang(v1.14), クリーンアーキテクチャ, GraphQL, gRPC, DDD, Auth0, GitHub
+<table>
+<tr><th align="left" width="150">分類</th><th align="left">技術</th></tr>
+<tr><td nowrap>フロントエンド</td><td>Vue.js(v2), Next.js(v11), TypeScript(v4), Redux, BEM(CSS), GraphQL</td></tr>
+<tr><td nowrap>バックエンド</td><td>Golang(v1.14), クリーンアーキテクチャ, GraphQL, gRPC, DDD, Auth0, GitHub</td></tr>
+</table>
 
 ## 自己PR
 
