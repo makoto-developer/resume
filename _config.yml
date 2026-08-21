@@ -1,5 +1,6 @@
 # Jekyll がリポジトリ名を H1 として挿入するのを抑えるため page.title と一致させている
 title: 職務経歴書
+tagline: makoto-developer
 description: フルスタックデベロッパー / テックリード。フロントエンド・バックエンド・インフラを横断し、要件定義から運用まで一貫して担当する。
 lang: ja
 theme: jekyll-theme-primer
