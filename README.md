@@ -25,7 +25,7 @@
 
 <table>
 <tr><th align="left" width="150">言語</th><th align="left">経験</th></tr>
-<tr><td nowrap><b>Go</b><br>v1.18〜v1.26</td><td>Gin, gRPC, GORM, Cobra。goroutineによる並列・並行処理の設計、パフォーマンスチューニング</td></tr>
+<tr><td nowrap><b>Go</b><br>v1.14〜v1.26</td><td>Gin, gRPC, GORM, Cobra。goroutineによる並列・並行処理の設計、パフォーマンスチューニング</td></tr>
 <tr><td nowrap><b>TypeScript</b><br>〜v5.9</td><td>Node.js(〜v24), Next.js(〜v16), Vue.js(v2), Redux, TanStack, React Native。型プログラミング、プロジェクト構成とデータストアの設計</td></tr>
 <tr><td nowrap><b>Elixir / Erlang</b><br>v1.10〜v1.19</td><td>Phoenix, LiveView, Elixir Desktop。動画配信のルーティングサーバなどリアルタイム性が求められるネットワークプログラミング、TURN/STUNサーバ構築。高可用性が要るシステムで採用することが多い</td></tr>
 <tr><td nowrap><b>Rust</b><br>v1.24〜v1.93</td><td>Actix Web, Tauri(v2)。GUIアプリ、Webアプリ。性能が要る部分をRustで書き、ルーティングはElixirに任せる構成で使うことが多い</td></tr>
@@ -43,7 +43,7 @@
 <tr><td nowrap>その他</td><td>Kafka, RabbitMQ, Nginx, Zabbix</td></tr>
 </table>
 
-設計・導入からパフォーマンスチューニングまで担当。AWS / GCP ともに Terraform で構築している。
+設計・導入からパフォーマンスチューニングまで担当。AWS / GCPともにTerraformで構築している。
 
 ### オンプレミス
 
@@ -71,14 +71,14 @@ Claude Code, Codex, GitHub Copilot, JetBrains AI Assistant, Google Antigravity
 - 国土交通省が公開するオープンデータを使い、ビルや土地の市場価値を履歴として表示する機能を開発
 - DWH(Snowflake / dbt / Embulk)によるデータ基盤の設計と構築
 - 地理データを扱うAPIとDBの設計
-- 複数プロダクトを横断してリファクタリング。重複ライブラリを共通化し、地理データ情報マートを新規構築してデータ取得経路を統一
+- 複数プロダクトを横断してリファクタリング。重複ライブラリを共通化し、地理情報データマートを新規構築してデータ取得経路を統一
 - 地図検索、PDF出力などのバグ修正とレスポンス改善
-- AIのみでレビューまで完結させる開発と、複数プロダクトを同時に修正するための仕組み作り
+- AIがレビューまで担当する開発フローの構築と、複数プロダクトを同時に修正するための仕組み作り
 
 <table>
 <tr><th align="left" width="150">分類</th><th align="left">技術</th></tr>
 <tr><td nowrap>フロントエンド</td><td>Next.js(v15), TypeScript(v5), TanStack, shadcn/ui, GraphQL</td></tr>
-<tr><td nowrap>バックエンド</td><td>Rust, Ruby(Rails), Python, Golang(v1.25), DDD, Snowflake, Google Maps API, PostgreSQL, MySQL, Highcharts, AWS(Aurora, EKS, ECS, Lambda など), GitHub</td></tr>
+<tr><td nowrap>バックエンド</td><td>Rust, Ruby(Rails), Python, Go(v1.25), DDD, Snowflake, Google Maps API, PostgreSQL, MySQL, Highcharts, AWS(Aurora, EKS, ECS, Lambda など), GitHub</td></tr>
 <tr><td nowrap>AI</td><td>Claude Code, Devin</td></tr>
 </table>
 
@@ -89,14 +89,14 @@ Shopifyアプリの機能開発・運用と、Shopifyに依存しないスピン
 **テックリード / フルスタック** / 業務委託・フルリモート / 開発チーム10人(全体15人)
 
 - 既存Shopifyアプリの機能開発と運用。問い合わせ対応、トラブルシューティング、スクラムイベントの改善
-- スピンオフアプリをゼロから設計・開発・リリース。多様なプラットフォームの注文データを扱うため DDD / クリーンアーキテクチャ / マイクロサービスを導入
+- スピンオフアプリをゼロから設計・開発・リリース。多様なプラットフォームの注文データを扱うためDDD / クリーンアーキテクチャ / マイクロサービスを導入
 - ProtobufでAPIを統一。他社のインターフェース変更にも追随できるよう、データ構造を抽象化して依存関係を分離
 - AI(Claude Code / Copilot)を使った開発の仕組み作り。JetBrains MPSでDSLを読み込ませてClaudeのコンテキストを90%削減し、Claude自身用のKanbanで忘却を防ぐなど、AgentやGuidelineを設計
 
 <table>
 <tr><th align="left" width="150">分類</th><th align="left">技術</th></tr>
 <tr><td nowrap>フロントエンド</td><td>Next.js(v15), TypeScript(v5), TanStack, shadcn/ui, grpc-transport</td></tr>
-<tr><td nowrap>バックエンド</td><td>Golang(v1.25), gRPC, マイクロサービスアーキテクチャ, クリーンアーキテクチャ, DDD, AWS(Aurora, EKS, ECS, Cognito, Lambda など), Terraform/Helm/Argo, GitLab</td></tr>
+<tr><td nowrap>バックエンド</td><td>Go(v1.25), gRPC, マイクロサービスアーキテクチャ, クリーンアーキテクチャ, DDD, AWS(Aurora, EKS, ECS, Cognito, Lambda など), Terraform/Helm/Argo CD, GitLab</td></tr>
 <tr><td nowrap>AI</td><td>Claude Code</td></tr>
 <tr><td nowrap>その他</td><td>Python, Pandas, Jupyter Notebook, ペアプロ, スクラム(1週スプリント)</td></tr>
 </table>
@@ -109,14 +109,14 @@ Shopifyアプリの機能開発・運用と、Shopifyに依存しないスピン
 
 **フルスタック** / 業務委託・フルリモート / 開発チーム10人(全体200人)
 
-- Cloud SQL から Spanner へ移行設計と実装。IDをUUIDv6で生成して逆順で発行し、水平分散させるなどSpannerの特性を考慮して設計
-- goroutineによる並行処理で応答速度を改善。MQサービスを使い、リクエストが急増しても耐えられる可用性を設計
+- Cloud SQLからSpannerへの移行を設計・実装。IDをUUIDv6で生成して逆順で発行し、水平分散させるなどSpannerの特性を考慮して設計
+- goroutineによる並行処理で応答速度を改善。MQサービスを使い、リクエストが急増しても処理を捌ける構成を設計
 - 決済機能の開発を通じて、与信システムや3Dセキュアなどのドメイン知識を習得
-- 1〜3年目の若手10名ほどのチームで、技術的なアドバイスとスクラムの進め方を指導。メンバーに合うやり方を提案し、生産性とドメイン知識を高めた
+- 1〜3年目の若手10名ほどのチームで、技術的なアドバイスとスクラムの進め方を指導。メンバーに合うやり方を提案し、生産性を高め、ドメイン知識を深めた
 
 <table>
 <tr><th align="left" width="150">分類</th><th align="left">技術</th></tr>
-<tr><td nowrap>バックエンド</td><td>Golang(v1.22), gRPC, GraphQL, マイクロサービスアーキテクチャ, クリーンアーキテクチャ, Kafka, GCP(Cloud SQL, Spanner, GKE, Cloud Functions, BigQuery など), Terraform/Helm/Argo, GitLab</td></tr>
+<tr><td nowrap>バックエンド</td><td>Go(v1.22), gRPC, GraphQL, マイクロサービスアーキテクチャ, クリーンアーキテクチャ, Kafka, GCP(Cloud SQL, Spanner, GKE, Cloud Functions, BigQuery など), Terraform/Helm/Argo CD, GitLab</td></tr>
 <tr><td nowrap>その他</td><td>SAFe, スクラム(2週スプリント)</td></tr>
 </table>
 
@@ -130,7 +130,7 @@ Shopifyで公開しているアプリの開発、運用。
 
 - 初期リリースから担当し、利用者数を0人から数千人へ増やし、年間数億円の売上を達成
 - フロントエンド、バックエンドを横断して開発
-- Kubernetes / Terraform / Helm / Argo でインフラを管理
+- Kubernetes / Terraform / Helm / Argo CDでインフラを管理
 - Shopifyは頻繁にバージョンアップがあるため、E2Eでリグレッション試験を自動化して工数を削減
 - 決済と国内/海外配送の実装を通じてドメイン知識を習得
 - モブプロを導入し、既存メンバーしか知らないドメイン知識を新規メンバーへ共有して受け入れをしやすくした
@@ -138,7 +138,7 @@ Shopifyで公開しているアプリの開発、運用。
 <table>
 <tr><th align="left" width="150">分類</th><th align="left">技術</th></tr>
 <tr><td nowrap>フロントエンド</td><td>Next.js(v13), TypeScript(v4), アトミックデザイン, GraphQL, Playwright</td></tr>
-<tr><td nowrap>バックエンド</td><td>Golang(v1.17), GORM, gRPC, GraphQL, マイクロサービスアーキテクチャ, クリーンアーキテクチャ, AWS(Aurora, DynamoDB, SQS, SES, EKS, ECS など), Terraform/Helm/Argo, GitLab</td></tr>
+<tr><td nowrap>バックエンド</td><td>Go(v1.17), GORM, gRPC, GraphQL, マイクロサービスアーキテクチャ, クリーンアーキテクチャ, AWS(Aurora, DynamoDB, SQS, SES, EKS, ECS など), Terraform/Helm/Argo CD, GitLab</td></tr>
 <tr><td nowrap>その他</td><td>E2E, ペアプロ/モブプログラミング, スクラム(1週スプリント)</td></tr>
 </table>
 
@@ -148,8 +148,8 @@ Shopifyで公開しているアプリの開発、運用。
 
 **テックリード / フルスタック** / 副業案件(アルバイト)・フルリモート / 開発チーム5人(全体200人)
 
-- Node.js から Elixir(Phoenix) への移行を依頼され、技術選定、計画〜リリース、リリース後のメンテナンスまで対応
-- 最大スループットを1,000 req/s から100,000 req/s に引き上げ
+- Node.jsからElixir(Phoenix)への移行を依頼され、技術選定、計画〜リリース、リリース後のメンテナンスまで対応
+- 最大スループットを1,000 req/sから100,000 req/sに引き上げ
 - サーバ数を100台から5台に減らし、インフラコストを削減
 - 既存サービスの振る舞いをGherkinで記述して整理し、E2Eでデグレを検出できるようにした
 - DevOps環境の導入
@@ -168,11 +168,11 @@ Shopifyで公開しているアプリの開発、運用。
 
 > 5とは異なる案件
 
-フロントエンド開発チームのテックリードとしてReactの設計を担当。
+フロントエンド開発チームのテックリードとしてReactアプリの設計を担当。
 
 **テックリード / フルスタック** / 業務委託・フルリモート / 開発チーム5人(全体50人)
 
-- 技術的負債が多くなったVue.jsアプリをReactへ移行するにあたり、ディレクトリ構成、状態管理、モジュール管理方法を設計
+- 技術的負債が蓄積したVue.jsアプリをReactへ移行するにあたり、ディレクトリ構成、状態管理、モジュール管理方法を設計
 - アトミックデザインで設計したコンポーネントを社内に配布し、どの部署でも使える開発環境を構築
 - Cognitoを使った認証認可の設計
 
@@ -194,7 +194,7 @@ Shopifyで公開しているアプリの開発、運用。
 <table>
 <tr><th align="left" width="150">分類</th><th align="left">技術</th></tr>
 <tr><td nowrap>フロントエンド</td><td>Vue.js(v2), Next.js(v11), TypeScript(v4), Redux, BEM(CSS), GraphQL</td></tr>
-<tr><td nowrap>バックエンド</td><td>Golang(v1.14), クリーンアーキテクチャ, GraphQL, gRPC, DDD, Auth0, GitHub</td></tr>
+<tr><td nowrap>バックエンド</td><td>Go(v1.14), クリーンアーキテクチャ, GraphQL, gRPC, DDD, Auth0, GitHub</td></tr>
 </table>
 
 <!-- 原本(Notion): https://app.notion.com/p/40371b14ae284ff391016d0ad6f5fa04 -->
