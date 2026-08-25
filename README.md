@@ -60,7 +60,7 @@ Claude Code, Codex, GitHub Copilot, JetBrains AI Assistant, Google Antigravity
 ## プロジェクト
 
 > - 過去5年分のみ掲載(2012年より22の開発プロジェクトに参加)
-> - 終了日の新しい順。期間が重複しているものは副業などで並行して稼働
+> - 終了日の新しい順
 
 ### 1. 不動産データ分析アプリ開発 (2026-04 〜 現在)
 

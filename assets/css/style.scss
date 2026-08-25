@@ -1,0 +1,26 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// テーマ既定のグレーのゼブラ縞を青系に置き換える。github.com 側は style を剥がすので Pages のみ効く
+.markdown-body table th,
+.markdown-body table td {
+  border: 1px solid #d8e9f8;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #d8e9f8;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f2f9fe;
+}
+
+// border ショートハンドより後に置く。先に書くと下線が打ち消される
+.markdown-body table th {
+  background-color: #ddf4ff;
+  color: #0550ae;
+  border-bottom: 2px solid #54aeff;
+}
